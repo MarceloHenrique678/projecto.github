@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h2><a href="#" class="logo">Início</a></h2>
+            <input type="checkbox" id="check">
+            <label for="check" class="menu-btn"><i class="fas fa-bars"></i></label>
+            <label for="check" class="close-btn"><i class="fas fa-times"></i></label>
+            <div class="navigation">
+                <a href="/projeto1/paginainicial.html">Início</a>
+                <a href="">Sobre</a>
+                <a href="">Info</a>
+                <a href="">Serviço</a>
+                <a href="/fale conosco/fale conosco.html">Fale conosco</a>
+            </div>
+        </header>
+        
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Fale Conosco</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="dad073c8-7be7-46f1-a4fd-827be7d4a153">
+                <input type="text" name="name" placeholder="Seu Nome" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Seu Email" class="contact-inputs">
+                <textarea name="message" placeholder="Sua Mensagem" class="contact-inputs" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        
+        <div class="media-icons">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div> 
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
